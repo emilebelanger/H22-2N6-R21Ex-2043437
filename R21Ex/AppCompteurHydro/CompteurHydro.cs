@@ -29,7 +29,7 @@ namespace AppCompteurHydro
         /// <param name="pQuantitéKwh"></param>
 		public void Consommer(int pQuantitéKwh)
         {
-            m_consommationActuelle -= pQuantitéKwh;
+            m_consommationActuelle += pQuantitéKwh;
         }
     }
 }
